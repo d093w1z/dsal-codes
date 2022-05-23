@@ -54,6 +54,7 @@ public:
     } else {
       return 0;
     }
+    return 0;
   }
   void minvalue(Bstnode *temp) {
     while (temp->left != NULL) {

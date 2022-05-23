@@ -16,7 +16,7 @@ public:
     cout << "\n Optimal Binary Search Tree \n";
     cout << "\n Enter the number of nodes: ";
     cin >> n;
-    cout << "\n Enter the data as…\n";
+    cout << "\n Enter the data as...\n";
     for (i = 1; i <= n; i++) {
       cout << "\n a[" << i << "]";
       cin >> a[i];
@@ -73,7 +73,7 @@ public:
   void build_tree() {
     int i, j, k;
     int queue[20], front = -1, rear = -1;
-    cout << "The Optimal Binary Search Tree For the Given Node Is…\n";
+    cout << "The Optimal Binary Search Tree For the Given Node Is...\n";
     cout << "\n The Root of this OBST is ::" << r[0][n];
     cout << "\nThe Cost of this OBST is::" << c[0][n];
     cout << "\n\n\t NODE \t LEFT CHILD \t RIGHT CHILD ";
